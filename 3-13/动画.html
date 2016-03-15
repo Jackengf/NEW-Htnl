@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style> 
+		.box1{width: 100px;height: 100px;background-color: red;animation: myfirst 5s;-webkit-animation: myfirst 5s;margin-bottom: 100px;}
+			
+		
+		@keyframes myfirst{from{background-color: red;}to{background-color: yellow}}
+		@-webkit-keyframes myfirst{from{background-color: red;}to{background-color: yellow}}
+
+
+		.box2{width: 100px;height: 100px;background-color: black;animation: sec 5s;-webkit-animation: sec 5s;margin-bottom: 10px;}
+		@keyframes sec{0%   {background: red;}25%  {background: yellow;}50%  {background: blue;}100% {background: green;}}
+		@-webkit-keyframes sec{0%   {background: red;}25%  {background: yellow;}50%  {background: blue;}100% {background: green;}}
+
+
+
+
+		.box3{height: 100px;width: 100px;background-color: #f0f;position:relative;animation: thr 10s infinite alternate;-webkit-animation: thr 10s infinite alternate;}
+		@keyframes thr{0% {background-color: red;left: 0px;top:0px;} 25% {background-color: blue; left: 200px;top: 0px;}  50% {background-color: #f00;left: 200px;top: 200px;}  75% {background-color: #0f0;left: 0px;top: 200px;}  100% {background-color: yellow;left: 0px;top:0px;}}
+
+		@-webkit-keyframes thr{0% {background-color: red;left: 0px;top:0px;} 25% {background-color: blue; left: 200px;top: 0px;}  50% {background-color: #f00;left: 200px;top: 200px;}  75% {background-color: #0f0;left: 0px;top: 200px;}  100% {background-color: yellow;left: 0px;top:0px;}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</style>
+</head>
+<body>
+	<div class="box1"></div>
+	<div class="box2"></div>
+	<div class="box3"></div>
+</body>
+</html>

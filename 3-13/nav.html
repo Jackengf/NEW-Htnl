@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	body{margin:0;padding:0;background-color: #053947;}
+	ul{list-style:none;}
+	a{text-decoration:none;color:#fff;padding:0 20px;display:block;height:60px;text-shadow:3px 3px 5px #000;}
+	nav{width: 500px;height: 60px;margin:0 auto;background-color: #565656;border-radius:5px;box-shadow:2px 2px 5px #000;}
+	nav ul li{float: left;line-height:60px;border-right:1px solid #5B5B5B;border-left:1px solid #454545;}
+	nav ul li.first{border-left:none;}
+	nav ul li.last{border-right:none;}
+	nav ul li:hover{
+		animation:bgChange 0.3s forwards;
+	}
+
+	@keyframes bgChange{
+		0%{background-color: #fff;}
+		100%{background-color: #053947;}
+	}
+	</style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li class="first"><a href="#">HTML</a></li>
+			<li><a href="#">CSS3</a></li>
+			<li class="last"><a href="#"></a></li>
+		</ul>
+	</nav>
+</body>
+</html>
